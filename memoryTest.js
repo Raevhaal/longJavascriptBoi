@@ -21,13 +21,13 @@ new MutationObserver(
 
 
 function clicker(){
-    console.log(`Clicking nr:${vMemory.length}`);
+    console.log(`Clicking`);
     if(vMemory.length == 0){ return; }
-    for (let index = 0; index < vMemory.length; index++) {
-        vMemory[0].dispatchEvent(vMouseEvent);
-        vMemory.shift()
-    }
-    // vMemory[0].dispatchEvent(vMouseEvent);
-    // vMemory.shift()
+    // while(vMemory.length > 0){
+    //     vMemory[0].dispatchEvent(vMouseEvent);
+    //     vMemory.shift()
+    // }
+    vMemory[0].dispatchEvent(vMouseEvent);
+    vMemory.shift()
     setTimeout(clicker,1)
 }
