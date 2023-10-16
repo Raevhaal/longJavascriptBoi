@@ -19,4 +19,13 @@ function run(){
 
 
 
-
+// #Creating the keyboard event
+// vTest = new KeyboardEvent('keydown', 
+//     {
+//         key:"t", 
+//         keyCode:84, 
+//         isComposing: true, 
+//         view:window, 
+//         sourceCapabilities: vMouseEvent.sourceCapabilities
+//     });
+// document.getElementsByClassName("letters")[0].dispatchEvent(vTest)
