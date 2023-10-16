@@ -1,7 +1,4 @@
-
-let vMouseEvent = document.addEventListener("keydown", function(e){vMouseEvent = e})
 let vTarget = document.getElementsByClassName("letters")[0]
-
 let vKeyEvents = {}
 document.addEventListener("keydown", 
     function(e){
