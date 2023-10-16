@@ -23,7 +23,7 @@ new MutationObserver(
 function clicker(){
     console.log(`Clicking`);
     if(vMemory.length == 0){ return; }
-    // while(vMemory.length > 0){
+    // while(vMemory.length > 0){ //without delay broke at 403
     //     vMemory[0].dispatchEvent(vMouseEvent);
     //     vMemory.shift()
     // }
