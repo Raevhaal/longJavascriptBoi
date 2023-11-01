@@ -5,12 +5,8 @@ for (let index = 0; index < vText.length; index++) {
         new KeyboardEvent('keydown', 
             {
                 key:vText[index], 
-                isComposing: true, 
-                view:window,
                 bubbles: true
             }
         )
     );
 }
-
-
