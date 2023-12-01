@@ -28,4 +28,3 @@ ob.observe(board, {
     subtree: true,
 });
 
-

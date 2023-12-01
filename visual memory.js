@@ -1,3 +1,5 @@
+//The version inspired by u/GainfulBirch228 is way better look elsewhere
+
 let vMemory = [];
 let vTimer;
 let isClicking = 0
